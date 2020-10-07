@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*Nav bar starts from here*/
+nav{
+	width: 100%;
+    height: 60px;
+    background: #000;
+    border-bottom: 1px solid #fff;
+    position: sticky;
+    top: 0px;
+}
+nav img{
+	float: left;
+	margin-top: 15px;
+}
+nav ul{
+	display: flex;
+	margin: 0;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a,a:hover{
+	font-family: 'Open Sans', sans-serif;
+    display: block;
+    color: #b0b0b0;
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 55px;
+}
+/*Nav bar ends here*/
+
+/*Header Starts here*/
+header{
+	background-image: url(../img/bg1.png);
+	background-size: cover;
+}
+.intro{
+	padding: 105px 0;
+}
+.intro img{
+	width: 150px;
+	margin-bottom: 25px;
+}
+.intro h1{
+	font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 31px;
+    margin-bottom: 25px;
+}
+.intro .divider{
+	border-top: 2px solid #fff;
+    margin-bottom: 25px;
+    width: 13%;
+}
+.intro p{
+	color: #a6a6a8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.intro button{
+	background: transparent;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+}
+.signUp{
+	float: right;
+    background: #fff;
+    border-radius: 3px;
+    margin: 138px 0px;
+}
+.signUp h6{
+	text-align: center;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    padding: 11px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.signUp form span{
+	color: #ff8b38;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.signUp form input{
+	border-bottom: 1px solid #d6d6d6;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    font-size: 15px;
+    margin: 40px 50px;
+    width: 70%;
+}
+.signUp form input:focus{
+	outline: none;
+}
+.signUp form button{
+	background: #ff8b38;
+    padding: 15px 120px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/*Header ends here*/
+
+/*Section one starts here*/
+.social{
+	border: 1px solid #a6a6a8;
+}
+.social-media{
+	margin: 20px 0px;
+}
+.social-media h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #000;
+}
+.social-media p{
+	font-family: 'Open Sans', sans-serif;
+	color: #a6a6a8;
+}
+.social-icon{
+	float: right;
+    margin-top: 22px;
+}
+.social-icon ul li{
+	list-style: none;
+    display: inline-block;
+}
+.social-icon ul li a{
+	text-decoration: none;
+}
+.social-icon ul li a i{
+	color: #cccccc;
+    padding: 18px;
+    font-size: 35px;
+}
+.social-icon .fa-wifi{
+	transform: rotate(45deg);
+}
+
+ /*<!-- Section one ends here -->*/
+
+/*Section 2 starts here*/
+.tabs{
+	background-color: #f5f5f5;
+	background-size: cover;
+	padding: 120px 0px;
+}
+.tabs ul li{
+	list-style: none;
+    background: #333333;
+    border: 1px solid wheat;
+    text-align: center;
+    width: 110px;
+    height: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 80px;
+    cursor: pointer;
+}
+.tabs ul li:hover{
+	background-color: #ff8b38;
+}
+.tabs .active{
+	background: #ff8b38;
+}
+.item1{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.item3{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.tab-1 h6{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.tab-1 p{
+	margin-top: 25px;
+    font-size: 14px;
+    color: #a6a6a8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.tab-1 button{
+	height: 40px;
+    width: 120px;
+    background: #ff8b38;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.tab-2 h6{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.tab-2 p{
+	margin-top: 25px;
+    font-size: 14px;
+    color: #a6a6a8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.tab-2 button{
+	height: 40px;
+    width: 120px;
+    background: #ff8b38;
+    border: none;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.tab-3 h6{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.tab-3 p{
+	margin-top: 25px;
+    font-size: 14px;
+    color: #a6a6a8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.tab-3 button{
+	height: 40px;
+    width: 120px;
+    background: #ff8b38;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.tabs img{
+	float: right;
+}
+
+
+/*Section 2 ends here*/
